@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-krz=q$@0@#ww1atdj-)qch(v3!9x1o00jqogkhjtl*fx5k!=_9
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']
+CORS_ALLOW_ALL_ORIGINS = True 
 
 AUTH_USER_MODEL = 'auth.User'
 
@@ -47,9 +48,12 @@ INSTALLED_APPS = [
      # Cloudinary
     'cloudinary',
     'cloudinary_storage',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
      "whitenoise.middleware.WhiteNoiseMiddleware", 
     'django.contrib.sessions.middleware.SessionMiddleware',
