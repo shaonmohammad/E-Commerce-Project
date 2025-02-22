@@ -54,7 +54,7 @@ class ProductListSerializer(serializers.ModelSerializer):
     category_name = serializers.CharField(source='category.name',read_only=True)
     class Meta:
         model = Product
-        fields = ('id', 'name', 'category_name', 'description', 'price','stock_quantity') 
+        fields = ('id', 'name', 'category_name', 'description', 'price','image','stock_quantity') 
   
     def get_stock_quantity(self,obj):
         return obj.stock.quantity if obj.stock else 0
