@@ -2,6 +2,9 @@
 
 This is a REST API for an e-commerce application built using Django and Django REST Framework.
 
+## Admin Pannel Link:
+https://e-commerce-project-green-ten.vercel.app/admin/
+
 ## Installation
 
 1. Clone the repository:
