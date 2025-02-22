@@ -115,11 +115,6 @@ The API uses JWT authentication. To get a token:
   DELETE /api/stocks/{id}/
   ```
 
-## Notes
-- All endpoints requiring authentication must include an `Authorization` header with a valid JWT token:
-  ```http
-  Authorization: Bearer your_access_token
-  ```
 
 ## Environment Variables
 Set up the following environment variables in your `.env` file:
