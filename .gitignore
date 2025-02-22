@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations
+*/migrations/*  # Ignore all migrations
+!*/migrations/__init__.py  # But keep __init__.py
+
+# Environment variables and secrets
+.env
+*.env
+config/settings/local.py
+
+# Virtual environment
+venv/
+env/
+*.venv
+Pipfile.lock
+
+# Static and media files
+staticfiles/
+media/
+*.bak
+*.swp
+
+# VS Code settings
+.vscode/
+
+# JetBrains (PyCharm) settings
+.idea/
+
+# macOS files
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# MyPy and Pytest
+.mypy_cache/
+.pytest_cache/
+
+# Celery beat scheduler file
+celerybeat-schedule
+
+# Node.js dependencies (if using frontend)
+node_modules/
+package-lock.json
+yarn.lock
