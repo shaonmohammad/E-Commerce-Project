@@ -3,9 +3,8 @@
 This is a REST API for an e-commerce application built using Django and Django REST Framework.
 
 ## Admin Pannel Link: https://e-commerce-project-green-ten.vercel.app/admin/
-## Root Url: https://e-commerce-project-green-ten.vercel.app/
 
-## Example URL: https://e-commerce-project-green-ten.vercel.app/api/products/
+## Example API URL: https://e-commerce-project-green-ten.vercel.app/api/products/
 
 
 ## Installation
