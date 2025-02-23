@@ -136,7 +136,7 @@ CLOUD_NAME=your_cloud_name
 API_KEY=your_api_key
 API_SECRET=your_api_secret
 
-# AWS SES
+# AWS RDS For Database 
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
